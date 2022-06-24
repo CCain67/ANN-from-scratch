@@ -6,7 +6,7 @@ This is a jupyter notebook containing a 2-layer neural network with bias and min
 
 ![](grad.gif)
 
-- Explanation: each image is a 28 by 28 pixel image (784 pixels total). The matrix ```WT``` which takes the vector of pixel values into the first layer is 10x784. I have initialized ```WT``` using "standard examples" of 0,1,2,.. and so on. At each iteration of gradient descent, I'm resizing each row of ```WT``` to a 28x28 pixel image and printing the result. Across several thousand iterations of gradient descent, the values of ```WT``` change as depicted in the gif.
+- Explanation: each image is 28 by 28 pixels (so 784 pixels total). The matrix ```WT``` which takes the vector of pixel values into the first layer has dimensions 10x784. I have initialized ```WT``` using "standard examples" of 0,1,2,.. and so on. At each iteration of gradient descent, I'm resizing each row of ```WT``` to a 28x28 pixel image and printing the result. Across several thousand iterations of gradient descent, the values of ```WT``` change as depicted in the gif.
 
 As a bonus, here's the same idea for a 1-layer network:
 
